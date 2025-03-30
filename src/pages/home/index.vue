@@ -227,8 +227,8 @@ const errorMessage = ref('')
 // 预览iframe引用
 const previewFrame = ref<HTMLIFrameElement | null>(null)
 
-// 改为默认使用iframe模式
-const directDisplay = ref(false)
+// 改为默认使用直接显示模式
+const directDisplay = ref(true)
 
 // 添加测试预览内容变量
 const testHtmlContent = ref('')
@@ -580,50 +580,42 @@ const startConversion = async () => {
     const formData = new FormData()
     console.log('准备上传图片...')
 
-    formData.append('image', currentImage.value.raw)
+    formData.append('file', currentImage.value.raw) // 修改参数名为file
 
     // 发送POST请求上传图片
-    console.log('正在调用上传API:', `${apiBaseUrl.value}/api/image/uploadUserData`)
-    const response = await axios.post(`${apiBaseUrl.value}/api/image/uploadUserData`, formData, {
+    console.log('正在调用上传API:', `${apiBaseUrl.value}/api/file/imagePhotoData`)
+    const response = await axios.post(`${apiBaseUrl.value}/api/file/imagePhotoData`, formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }
     })
 
-    // 如果上传成功，设置imageId
     console.log('图片上传成功，响应数据:', response.data)
-    imageUploaded.value = true
-    imageId.value = response.data.id || response.data.data?.id
-    console.log('提取的图片ID:', imageId.value)
-
-    if (!imageId.value) {
-      throw new Error('上传成功但未能获取图片ID')
-    }
-
-  } catch (uploadError) {
-    console.error('图片上传失败:', uploadError)
-    ElMessage.error('上传失败，请重试')
-    converting.value = false
-    return
-  }
-
-  try {
-    console.log('准备获取处理结果，图片ID:', imageId.value)
-    console.log('调用处理API:', `${apiBaseUrl.value}/api/image/process/${imageId.value}`)
-
-    const processResponse = await axios.get(`${apiBaseUrl.value}/api/image/process/${imageId.value}`)
     
-    if (processResponse.data.success) {
-      previewHtml.value = processResponse.data.html
+    // 检查响应状态
+    if (response.data.code === 200 && response.data.data && response.data.data.resultString) {
+      // 从返回数据中提取resultString并处理
+      const description = response.data.data.resultString
+      
+      // 直接显示文本内容,将换行符转换为<br>标签
+      previewHtml.value = description.replace(/\n/g, '<br>')
+      
+      // 显示成功消息
       ElMessage.success(t('upload.success'))
+      
+      // 设置处理成功状态
+      converting.value = false
+      previewLoading.value = false
+      return
     } else {
-      throw new Error('处理失败')
+      throw new Error('处理失败或返回数据格式不正确')
     }
+
   } catch (error) {
     console.error('处理失败:', error)
     ElMessage.error('处理失败，请重试')
-  } finally {
     converting.value = false
+    previewLoading.value = false
   }
 }
 
@@ -1071,12 +1063,14 @@ const getUserPointsData = async () => {
 .direct-preview {
   width: 100%;
   min-height: 300px;
-  background-color: #fff;
-  color: #333;
-  padding: 0;
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  padding: 20px;
   border-radius: 4px;
   overflow: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  white-space: pre-wrap;
 }
 
 /* 恢复基本样式 */

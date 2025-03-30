@@ -132,9 +132,15 @@ const currentLanguageLabel = computed(() => {
 // 处理语言切换
 function handleLanguageChange(lang: string) {
   if (lang !== locale.value) {
-    locale.value = lang
-    localStorage.setItem('appLanguage', lang)
-    ElMessage.success(t('system.languageChanged', { lang: supportedLanguages.find(l => l.value === lang)?.label }))
+    // 获取目标语言的标签
+    const targetLang = supportedLanguages.find(l => l.value === lang)
+    if (targetLang) {
+      // 先切换语言
+      locale.value = lang
+      localStorage.setItem('lang', lang)
+      // 使用新语言显示提示
+      ElMessage.success(t('system.languageChanged', { lang: targetLang.label }))
+    }
   }
 }
 

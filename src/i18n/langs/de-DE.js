@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'PhotoStory AI - KI-Selbstvorstellungskarten-Generator',
+    home: 'PhotoStory AI - KI-Fotogeschichten-Generator',
     features: 'Funktionen',
     faq: 'FAQ',
     pricing: 'Preise',
@@ -8,11 +8,11 @@ export default {
     points: 'Punkte: {points}'
   },
   hero: {
-    title: 'PhotoStory AI - KI-Selbstvorstellungskarten-Generator',
-    subtitle: 'Verwandeln Sie Ihren Selbstvorstellungstext mit KI-Technologie in schöne visuelle Karten. Geben Sie einfach Ihren Text ein, und unsere KI erstellt automatisch professionelle, optisch ansprechende Selbstvorstellungskarten, perfekt für soziale Medien, Lebensläufe oder berufliche Profile.',
+    title: 'PhotoStory AI - KI-Fotogeschichten-Generator',
+    subtitle: 'Verwandeln Sie Ihre Fotos mit KI-Technologie in fesselnde Geschichten. Laden Sie einfach Ihre Bilder hoch, und unsere KI erstellt automatisch emotionale und fantasievolle Geschichten, die jedes Foto zum Leben erwecken.',
     tags: {
       free: 'Kostenlos',
-      ai: 'KI-Smart-Design',
+      ai: 'KI-Smart-Kreation',
       noRegister: 'Keine Registrierung',
       unlimited: 'Unbegrenzte Generierung'
     }
@@ -20,50 +20,50 @@ export default {
   upload: {
     title: 'Bilder hier ablegen oder klicken zum Hochladen',
     subtitle: 'Unterstützt PNG, JPG und andere Bildformate',
-    button: 'Datei auswählen',
+    button: 'Bild auswählen',
     converting: 'Generierung läuft...',
     success: 'Generierung abgeschlossen',
     error: 'Generierung fehlgeschlagen',
     retry: 'Erneut versuchen',
     cancel: 'Abbrechen',
-    fileSizeExceeded: 'Dateigröße überschreitet das Limit. Upgrade erforderlich',
-    needLogin: 'Bitte melden Sie sich an, um Dateien hochzuladen'
+    fileSizeExceeded: 'Bildgröße überschreitet das Limit. Upgrade erforderlich',
+    needLogin: 'Bitte melden Sie sich an, um Bilder hochzuladen'
   },
   preview: {
-    title: 'Vorschau der Selbstvorstellungskarte',
-    download: 'HTML herunterladen',
-    copy: 'HTML kopieren',
+    title: 'Vorschau der Geschichte',
+    download: 'Geschichte herunterladen',
+    copy: 'Geschichte kopieren',
     copySuccess: 'Erfolgreich kopiert',
     copyError: 'Kopieren fehlgeschlagen',
     noContent: 'Kein Inhalt'
   },
   features: {
-    title: 'Hauptfunktionen des KI-Selbstvorstellungskarten-Generators',
-    subtitle: 'Erleben Sie die nächste Generation der KI-Selbstvorstellungskarten - Intelligentes Design, Professionelles Aussehen, Mehrzweckanwendung',
+    title: 'Hauptfunktionen von PhotoStory AI',
+    subtitle: 'Erleben Sie die nächste Generation der KI-Geschichtengenerierung - Emotional, Fantasievoll, Vielseitig',
     cards: {
       free: {
         title: 'Kostenlos',
-        desc: 'Völlig kostenloser KI-Selbstvorstellungskarten-Generator, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
+        desc: 'Völlig kostenloser KI-Fotogeschichten-Generator, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
       },
       quality: {
-        title: 'Professionelles Design',
-        desc: 'KI-generierte Karten mit professionellem visuellem Design, das Ihre persönlichen Eigenschaften hervorhebt.'
+        title: 'Emotionale Geschichten',
+        desc: 'KI-generierte Geschichten mit reichen Emotionen und Fantasie, die Ihre Fotos zum Leben erwecken.'
       },
       smart: {
-        title: 'Intelligente Generierung',
-        desc: 'Extrahiert automatisch wichtige Informationen aus Ihrer Eingabe für die visuelle Darstellung.'
+        title: 'Intelligente Kreation',
+        desc: 'Analysiert automatisch Fotoinhalte und erstellt perfekt passende Geschichten.'
       },
       privacy: {
         title: 'Datenschutz',
-        desc: 'Verwendung fortschrittlicher Verschlüsselungstechnologie zum Schutz Ihrer persönlichen Daten, sofortige Löschung nach der Verarbeitung.'
+        desc: 'Verwendung fortschrittlicher Verschlüsselungstechnologie zum Schutz Ihrer Fotos, sofortige Löschung nach der Verarbeitung.'
       },
       understanding: {
         title: 'Szenarienanpassung',
-        desc: 'Unterstützung für Selbstvorstellungskarten für Social-Media-Profile, Bewerbungen, persönliche Websites und mehr.'
+        desc: 'Unterstützung für Lebensfotos, Landschaften, Porträts und weitere Arten von Fotogeschichten.'
       },
       advanced: {
         title: 'Mehrsprachenunterstützung',
-        desc: 'Generieren Sie Selbstvorstellungen in mehreren Sprachen, einschließlich Deutsch und Englisch.'
+        desc: 'Generieren Sie Geschichten in mehreren Sprachen, einschließlich Deutsch und Englisch.'
       }
     },
     examples: {
@@ -73,66 +73,66 @@ export default {
     }
   },
   testimonials: {
-    title: 'Benutzerbewertungen des KI-Visitenkarten-Generators',
-    subtitle: 'Sehen Sie, wie Benutzer aus verschiedenen Branchen unser KI-Visitenkarten-Generierungstool bewerten',
+    title: 'Benutzerbewertungen von PhotoStory AI',
+    subtitle: 'Erfahren Sie, wie Benutzer aus verschiedenen Branchen unser KI-Fotogeschichten-Tool bewerten',
     list: [
       {
-        name: 'Zhang Ming',
-        title: 'Freiberufler',
-        text: 'Die Designfähigkeiten des KI-Visitenkarten-Generators sind beeindruckend. Er generiert schnell professionelle persönliche Karten mit modernem minimalistischem Designstil. Ich mag besonders seine Szenenanpassungsfunktion, die verschiedene Kartendesigns für verschiedene Anlässe generieren kann.',
+        name: 'Michael Schmidt',
+        title: 'Fotograf',
+        text: 'Die kreativen Fähigkeiten von PhotoStory AI sind beeindruckend. Es generiert schnell emotionale Geschichten aus meinen Fotos und macht jedes Foto bedeutungsvoller. Besonders gefällt mir die Fähigkeit, Emotionen auszudrücken und Fotos berührendere Geschichten erzählen zu lassen.',
         avatar: ''
       },
       {
-        name: 'Li Hua',
-        title: 'Unternehmer',
-        text: 'Als Unternehmer brauche ich ein Tool, das schnell professionelle Visitenkarten generieren kann. Der KI-Visitenkarten-Generator hat nicht nur schönes Design, sondern extrahiert auch intelligenterweise wichtige Informationen, um klare Kartenlayouts zu erstellen. Seine KI-Designfähigkeiten machen die Kartenerstellung einfach und effizient.',
+        name: 'Sarah Weber',
+        title: 'Reisebloggerin',
+        text: 'Als Reisebloggerin brauche ich ein Tool, das schnell Geschichten für meine Reisefotos erstellen kann. PhotoStory AI hat nicht nur starke kreative Fähigkeiten, sondern versteht auch intelligent Fotoinhalte, um fesselnde Reisegeschichten zu generieren. Seine KI-Kreation macht Reisedokumentation interessanter.',
         avatar: ''
       },
       {
-        name: 'Wang Fang',
-        title: 'Designer',
-        text: 'Bei der Bearbeitung von Kundenkartenanforderungen ist das Vorlagendesign des KI-Visitenkarten-Generators hervorragend. Er versteht Designanforderungen genau und generiert sowohl professionelle als auch schöne Karten. Der Datenschutz gibt mir auch Sicherheit.',
+        name: 'Emma Wagner',
+        title: 'Hausfrau',
+        text: 'Bei der Bearbeitung von Familienfotos ist die Geschichtenerstellung von PhotoStory AI hervorragend. Es versteht die Emotionen in Fotos genau und erstellt herzerwärmende Familiengeschichten. Der Datenschutz gibt mir auch Sicherheit.',
         avatar: ''
       },
       {
-        name: 'Chen Qiang',
-        title: 'Verkaufsleiter',
-        text: 'Die Benutzerfreundlichkeit des KI-Visitenkarten-Generators ist sehr gut. Nach dem Hochladen der Informationen generiert die KI schnell Karten, wodurch der gesamte Prozess flüssig und natürlich ist. Die Kartendesign-Effekte sind ebenfalls ausgezeichnet und machen das persönliche Image professioneller.',
+        name: 'David Müller',
+        title: 'Social Media Manager',
+        text: 'Die Benutzerfreundlichkeit von PhotoStory AI ist sehr gut. Nach dem Hochladen von Fotos erstellt die KI schnell fesselnde Geschichten, wodurch der gesamte Prozess flüssig und natürlich ist. Die Geschichtenqualität ist ebenfalls ausgezeichnet und macht Social-Media-Inhalte lebendiger und interessanter.',
         avatar: ''
       },
       {
-        name: 'Liu Ting',
+        name: 'Lisa Fischer',
         title: 'Studentin',
-        text: 'Der KI-Visitenkarten-Generator war eine große Hilfe bei der Vorbereitung meines Praktikums-Lebenslaufs. Er extrahiert intelligenterweise meine Bildungs- und Kompetenzinformationen, um Kartendesigns zu generieren, die für Studenten geeignet sind. Die Mehrfachanwendung ermöglicht es mir auch, verschiedene Kartendesigns für verschiedene Anlässe zu verwenden.',
+        text: 'PhotoStory AI war eine große Hilfe bei der Dokumentation des Campus-Lebens. Es versteht meine Campus-Fotos intelligent und erstellt Geschichten voller jugendlicher Energie. Die Mehrfachanwendung ermöglicht es mir auch, verschiedene Geschichtenstile für verschiedene Anlässe zu erstellen.',
         avatar: ''
       },
       {
-        name: 'Zhao Yang',
+        name: 'Johannes König',
         title: 'Geschäftsführer',
-        text: 'Die Datenschutzmaßnahmen des KI-Visitenkarten-Generators geben mir großes Vertrauen. Er verwendet fortschrittliche Verschlüsselungstechnologie, um die Informationssicherheit zu gewährleisten. Seine KI-Designfähigkeiten sind leistungsstark und generieren schnell professionelle Geschäftskarten, um mir zu helfen, eine bessere persönliche Marke aufzubauen.',
+        text: 'Die Datenschutzmaßnahmen von PhotoStory AI geben mir großes Vertrauen. Es verwendet fortschrittliche Verschlüsselungstechnologie, um die Fotosicherheit zu gewährleisten. Seine KI-Kreationsfähigkeiten sind leistungsstark und erstellen schnell professionelle Markengeschichten, um ein besseres Markenimage aufzubauen.',
         avatar: ''
       }
     ]
   },
   faq: {
     title: 'Häufig gestellte Fragen',
-    subtitle: 'Häufige Fragen zum KI-Selbstvorstellungskarten-Generator',
+    subtitle: 'Häufige Fragen zu PhotoStory AI',
     questions: [
       {
         q: 'Wofür kann ich dieses Tool verwenden?',
-        a: 'Sie können professionelle Selbstvorstellungskarten für Social-Media-Profile, Bewerbungen, persönliche Websites oder jede andere Gelegenheit erstellen, bei der Sie sich präsentieren möchten.'
+        a: 'Sie können emotionale und fantasievolle Geschichten für soziale Medien, Reisedokumentation, Familienerinnerungen oder jede andere Gelegenheit erstellen, bei der Sie Fotogeschichten präsentieren möchten.'
       },
       {
         q: 'Gibt es Gebühren für die Nutzung dieses Tools?',
-        a: 'Derzeit ist dieses Tool völlig kostenlos. Sie können Selbstvorstellungskarten ohne Einschränkungen generieren.'
+        a: 'Derzeit ist dieses Tool völlig kostenlos. Sie können Fotogeschichten ohne Einschränkungen generieren.'
       },
       {
         q: 'Welche Sprachen werden unterstützt?',
-        a: 'Unsere KI kann Selbstvorstellungen in mehreren Sprachen verarbeiten, einschließlich Deutsch, Englisch und anderen wichtigen Sprachen.'
+        a: 'Unsere KI kann Geschichten in mehreren Sprachen verarbeiten, einschließlich Deutsch, Englisch und anderen wichtigen Sprachen.'
       },
       {
         q: 'Sind meine Daten sicher?',
-        a: 'Wir legen großen Wert auf Ihre Privatsphäre. Die von Ihnen bereitgestellten Selbstvorstellungsinhalte werden nur zur Generierung von Karten verwendet und nicht für andere Zwecke genutzt.'
+        a: 'Wir legen großen Wert auf Ihre Privatsphäre. Die von Ihnen bereitgestellten Fotos werden nur zur Generierung von Geschichten verwendet und nicht für andere Zwecke genutzt.'
       }
     ]
   },
@@ -141,20 +141,20 @@ export default {
     loading: 'Wird geladen...'
   },
   workflow: {
-    title: 'So verwenden Sie den KI-Visitenkarten-Generator',
-    subtitle: 'Erstellen Sie schöne Visitenkarten in 3 einfachen Schritten',
+    title: 'So verwenden Sie den KI-Fotogeschichten-Generator',
+    subtitle: 'Erstellen Sie schöne Fotogeschichten in 3 einfachen Schritten',
     steps: {
       upload: {
-        title: 'Datei hochladen',
-        desc: 'Laden Sie einfach Ihre Datei mit persönlichen Informationen hoch'
+        title: 'Foto hochladen',
+        desc: 'Laden Sie einfach Ihr Foto hoch, um zu beginnen'
       },
       analyze: {
         title: 'KI-Analyse',
-        desc: 'KI extrahiert automatisch wichtige Informationen und erstellt eine schöne Karte'
+        desc: 'KI analysiert automatisch das Foto und erstellt eine schöne Geschichte'
       },
       download: {
         title: 'Herunterladen & Teilen',
-        desc: 'Laden Sie Ihre schöne Visitenkarte herunter und teilen Sie sie überall'
+        desc: 'Laden Sie Ihre schöne Fotogeschichte herunter und teilen Sie sie überall'
       }
     }
   },

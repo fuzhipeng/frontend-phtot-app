@@ -12,20 +12,20 @@ export default {
     loading: 'Loading...'
   },
   workflow: {
-    title: 'How to Use AI Self Introduction Card Generator',
-    subtitle: 'Create beautiful self-introduction cards in 3 simple steps',
+    title: 'How to Use AI Photo Story Generator',
+    subtitle: 'Create beautiful photo stories in 3 simple steps',
     steps: {
       upload: {
-        title: 'Upload Your Text',
-        desc: 'Simply upload your self-introduction text to get started'
+        title: 'Upload Your Photo',
+        desc: 'Simply upload your photo to get started'
       },
       analyze: {
         title: 'AI Analysis',
-        desc: 'AI automatically extracts key information and generates a beautiful card'
+        desc: 'AI automatically analyzes the photo and generates a beautiful story'
       },
       download: {
         title: 'Download & Share',
-        desc: 'Download your beautiful self-introduction card and share it anywhere'
+        desc: 'Download your beautiful photo story and share it anywhere'
       }
     }
   },
@@ -34,7 +34,7 @@ export default {
     subtitle: 'Transform your photos into captivating stories with AI. Simply upload your images, and our AI will automatically create emotional and imaginative stories that bring each photo to life.',
     tags: {
       free: 'Free',
-      ai: 'AI Smart Design',
+      ai: 'AI Smart Creation',
       noRegister: 'No Registration',
       unlimited: 'Unlimited Generation'
     }
@@ -42,19 +42,19 @@ export default {
   upload: {
     title: 'Drop images here or click to upload',
     subtitle: 'Supports PNG, JPG and other image formats',
-    button: 'Choose File',
+    button: 'Choose Image',
     converting: 'Generating...',
     success: 'Generation Complete',
     error: 'Generation Failed',
     retry: 'Retry',
     cancel: 'Cancel',
     fileSizeExceeded: 'File size exceeds limit, please upgrade',
-    needLogin: 'Please login first to upload files'
+    needLogin: 'Please login first to upload images'
   },
   preview: {
-    title: 'Preview Self Introduction Card',
-    download: 'Download HTML',
-    copy: 'Copy HTML',
+    title: 'Preview Story',
+    download: 'Download Story',
+    copy: 'Copy Story',
     copySuccess: 'Copied Successfully',
     copyError: 'Copy Failed',
     noContent: 'No content available'
@@ -65,27 +65,27 @@ export default {
     cards: {
       free: {
         title: 'Free to Use',
-        desc: 'Completely free AI self-introduction card generator, no usage restrictions, no registration required.'
+        desc: 'Completely free AI photo story generator, no usage restrictions, no registration required.'
       },
       quality: {
-        title: 'Professional Design',
-        desc: 'AI-generated cards with professional visual design highlighting your personal traits.'
+        title: 'Emotional Stories',
+        desc: 'AI-generated stories with rich emotions and imagination that bring your photos to life.'
       },
       smart: {
-        title: 'Smart Generation',
-        desc: 'Automatically extracts key information from your input for visual presentation.'
+        title: 'Smart Creation',
+        desc: 'Automatically analyzes photo content and creates perfectly matching story plots.'
       },
       privacy: {
         title: 'Privacy Protection',
-        desc: 'Using advanced encryption technology to ensure your personal information security, immediate deletion after processing.'
+        desc: 'Using advanced encryption technology to ensure your photo security, immediate deletion after processing.'
       },
       understanding: {
         title: 'Scene Adaptation',
-        desc: 'Support for self-introduction cards for social media profiles, job applications, personal websites, and more.'
+        desc: 'Support for life photos, landscapes, portraits, and more types of photo story generation.'
       },
       advanced: {
         title: 'Multi-language Support',
-        desc: 'Generate self-introductions in multiple languages including English and Chinese.'
+        desc: 'Generate stories in multiple languages including English and Chinese.'
       }
     },
     examples: {
@@ -99,39 +99,39 @@ export default {
     subtitle: 'Hear from users across different industries about our AI photo story generation tool',
     list: [
       {
-        name: 'Zhang Ming',
-        title: 'Freelancer',
-        text: 'The design capabilities of AI Business Card Generator are impressive. It quickly generates professional personal cards with modern minimalist design style. I especially like its multi-scene adaptation feature, which can generate different card styles for different occasions.',
+        name: 'Michael Zhang',
+        title: 'Photographer',
+        text: 'The creative capabilities of PhotoStory AI are impressive. It quickly generates emotional stories from my photos, making each photo more meaningful. I especially love its ability to express emotions, making photos tell more touching stories.',
         avatar: ''
       },
       {
-        name: 'Li Hua',
-        title: 'Entrepreneur',
-        text: 'As an entrepreneur, I need a tool that can quickly generate professional business cards. AI Business Card Generator not only has beautiful design but also intelligently extracts key information to create clear card layouts. Its AI design capabilities make card creation simple and efficient.',
+        name: 'Sarah Li',
+        title: 'Travel Blogger',
+        text: 'As a travel blogger, I need a tool that can quickly create stories for my travel photos. PhotoStory AI not only has strong creative abilities but also intelligently understands photo content to generate engaging travel stories. Its AI creation makes travel documentation more interesting.',
         avatar: ''
       },
       {
-        name: 'Wang Fang',
-        title: 'Designer',
-        text: 'When handling client card requirements, the template design of AI Business Card Generator is excellent. It accurately understands design needs and generates both professional and beautiful cards. The privacy protection also gives me peace of mind.',
+        name: 'Emily Wang',
+        title: 'Homemaker',
+        text: 'When dealing with family photos, PhotoStory AI\'s story creation is excellent. It accurately understands the emotions in photos and creates heartwarming family stories. The privacy protection also gives me peace of mind.',
         avatar: ''
       },
       {
-        name: 'Chen Qiang',
-        title: 'Sales Manager',
-        text: 'The user experience of AI Business Card Generator is very friendly. After uploading information, AI quickly generates cards, making the whole process smooth and natural. The card design effects are also great, making personal image more professional.',
+        name: 'David Chen',
+        title: 'Social Media Manager',
+        text: 'The user experience of PhotoStory AI is very friendly. After uploading photos, AI quickly creates engaging stories, making the whole process smooth and natural. The story quality is also great, making social media content more vivid and interesting.',
         avatar: ''
       },
       {
-        name: 'Liu Ting',
+        name: 'Linda Liu',
         title: 'Student',
-        text: 'AI Business Card Generator was a great help when preparing my internship resume. It intelligently extracts my educational background and skills information to generate card designs suitable for student identity. Multi-scene support also allows me to use different card styles for different occasions.',
+        text: 'PhotoStory AI was a great help in documenting campus life. It intelligently understands my campus photos and creates stories full of youthful energy. Multi-scene support also allows me to create different styles of stories for different occasions.',
         avatar: ''
       },
       {
-        name: 'Zhao Yang',
+        name: 'James Zhao',
         title: 'Corporate Executive',
-        text: 'The privacy protection measures of AI Business Card Generator give me great confidence. It uses advanced encryption technology to ensure information security. Meanwhile, its AI design capabilities are powerful, quickly generating professional business cards to help me build a better personal brand.',
+        text: 'The privacy protection measures of PhotoStory AI give me great confidence. It uses advanced encryption technology to ensure photo security. Meanwhile, its AI creation capabilities are powerful, quickly creating professional brand stories to help build a better brand image.',
         avatar: ''
       }
     ]
@@ -142,19 +142,19 @@ export default {
     questions: [
       {
         q: 'What can I use this tool for?',
-        a: 'You can create professional self-introduction cards for social media profiles, job applications, personal websites, or any occasion where you need to present yourself.'
+        a: 'You can create emotional and imaginative stories for social media, travel documentation, family memories, or any occasion where you want to showcase photo stories.'
       },
       {
         q: 'Is there a fee to use this tool?',
-        a: 'Currently, this tool is completely free to use. You can generate self-introduction cards without any limitations.'
+        a: 'Currently, this tool is completely free to use. You can generate photo stories without any limitations.'
       },
       {
         q: 'What languages are supported?',
-        a: 'Our AI can process self-introductions in multiple languages, including English, Chinese, and other major languages.'
+        a: 'Our AI can process stories in multiple languages, including English, Chinese, and other major languages.'
       },
       {
         q: 'Is my data secure?',
-        a: 'We value your privacy. The self-introduction content you provide is only used to generate cards and will not be used for other purposes.'
+        a: 'We value your privacy. The photos you provide are only used to generate stories and will not be used for other purposes.'
       }
     ]
   },

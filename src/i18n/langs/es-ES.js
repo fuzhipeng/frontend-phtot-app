@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'PhotoStory AI - Generador de Tarjetas de Autopresentación',
+    home: 'PhotoStory AI - Generador de Historias Fotográficas con IA',
     features: 'Características',
     faq: 'Preguntas Frecuentes',
     pricing: 'Precios',
@@ -8,11 +8,11 @@ export default {
     points: 'Puntos: {points}'
   },
   hero: {
-    title: 'PhotoStory AI - Generador de Tarjetas de Autopresentación',
-    subtitle: 'Transforma tu texto de autopresentación en hermosas tarjetas visuales utilizando tecnología de IA. Simplemente ingresa tu texto y nuestra IA creará automáticamente tarjetas de autopresentación profesionales y visualmente atractivas, perfectas para redes sociales, currículos o perfiles profesionales.',
+    title: 'PhotoStory AI - Generador de Historias Fotográficas con IA',
+    subtitle: 'Transforma tus fotos en historias cautivadoras utilizando tecnología de IA. Simplemente sube tus imágenes y nuestra IA creará automáticamente historias emocionales e imaginativas que dan vida a cada foto.',
     tags: {
       free: 'Gratis',
-      ai: 'Diseño Inteligente IA',
+      ai: 'Creación Inteligente IA',
       noRegister: 'Sin Registro',
       unlimited: 'Generación Ilimitada'
     }
@@ -20,119 +20,119 @@ export default {
   upload: {
     title: 'Arrastra imágenes aquí o haz clic para cargar',
     subtitle: 'Soporta PNG, JPG y otros formatos de imagen',
-    button: 'Seleccionar archivo',
+    button: 'Seleccionar imagen',
     converting: 'Generando...',
     success: 'Generación completada',
     error: 'Error en la generación',
     retry: 'Reintentar',
     cancel: 'Cancelar',
-    fileSizeExceeded: 'Tamaño de archivo excedido. Se requiere actualización',
-    needLogin: 'Por favor inicia sesión para cargar archivos'
+    fileSizeExceeded: 'Tamaño de imagen excedido. Se requiere actualización',
+    needLogin: 'Por favor inicia sesión para cargar imágenes'
   },
   preview: {
-    title: 'Vista Previa de la Tarjeta de Autopresentación',
-    download: 'Descargar HTML',
-    copy: 'Copiar HTML',
+    title: 'Vista Previa de la Historia',
+    download: 'Descargar Historia',
+    copy: 'Copiar Historia',
     copySuccess: 'Copiado exitosamente',
     copyError: 'Error al copiar',
     noContent: 'Sin contenido'
   },
   features: {
-    title: 'Características Principales del Generador de Tarjetas de Autopresentación con IA',
-    subtitle: 'Experimenta la Próxima Generación de Creación de Tarjetas de Autopresentación con IA - Diseño Inteligente, Aspecto Profesional, Multifuncional',
+    title: 'Características Principales de PhotoStory AI',
+    subtitle: 'Experimenta la Próxima Generación de Creación de Historias con IA - Emocional, Imaginativa, Versátil',
     cards: {
       free: {
         title: 'Gratis',
-        desc: 'Generador de tarjetas de autopresentación con IA completamente gratuito, sin límites de uso, sin necesidad de registro.'
+        desc: 'Generador de historias fotográficas con IA completamente gratuito, sin límites de uso, sin necesidad de registro.'
       },
       quality: {
-        title: 'Diseño Profesional',
-        desc: 'Tarjetas creadas por IA con diseño visual profesional que resalta tus cualidades personales.'
+        title: 'Historias Emocionales',
+        desc: 'Historias creadas por IA con emociones ricas e imaginación que dan vida a tus fotos.'
       },
       smart: {
-        title: 'Generación Inteligente',
-        desc: 'Extrae automáticamente información clave de tu texto para la presentación visual.'
+        title: 'Creación Inteligente',
+        desc: 'Analiza automáticamente el contenido de las fotos y crea historias perfectamente adaptadas.'
       },
       privacy: {
         title: 'Protección de Privacidad',
-        desc: 'Utilizamos tecnología de encriptación avanzada para garantizar la seguridad de tu información personal, eliminándola inmediatamente después del procesamiento.'
+        desc: 'Utilizamos tecnología de encriptación avanzada para proteger tus fotos, eliminándolas inmediatamente después del procesamiento.'
       },
       understanding: {
         title: 'Adaptación a Escenarios',
-        desc: 'Soporte para tarjetas de autopresentación en perfiles de redes sociales, solicitudes de empleo, sitios web personales y más.'
+        desc: 'Soporte para fotos de vida, paisajes, retratos y otros tipos de historias fotográficas.'
       },
       advanced: {
         title: 'Soporte Multilingüe',
-        desc: 'Crea autopresentaciones en múltiples idiomas, incluyendo español e inglés.'
+        desc: 'Crea historias en múltiples idiomas, incluyendo español e inglés.'
       }
     },
     examples: {
-      title: 'Galería de Tarjetas',
-      subtitle: 'Ejemplos de Diseños Profesionales de Tarjetas de Presentación',
+      title: 'Galería de Historias',
+      subtitle: 'Ejemplos de Historias Fotográficas Creativas',
       tag: 'Ejemplo'
     }
   },
   testimonials: {
-    title: 'Lo que Dicen los Usuarios sobre el Generador de Tarjetas de Presentación con IA',
-    subtitle: 'Escucha cómo los usuarios de diferentes industrias evalúan nuestra herramienta de generación de tarjetas de presentación con IA',
+    title: 'Lo que Dicen los Usuarios sobre PhotoStory AI',
+    subtitle: 'Escucha cómo los usuarios de diferentes industrias evalúan nuestra herramienta de generación de historias fotográficas con IA',
     list: [
       {
-        name: 'Zhang Ming',
-        title: 'Freelancer',
-        text: 'Las capacidades de diseño del generador de tarjetas de presentación con IA son impresionantes. Genera rápidamente tarjetas personales profesionales con un estilo de diseño minimalista moderno. Me gusta especialmente su función de adaptación a escenarios, que puede generar varios estilos de tarjetas para diferentes casos.',
+        name: 'Miguel Rodríguez',
+        title: 'Fotógrafo',
+        text: 'Las capacidades creativas de PhotoStory AI son impresionantes. Genera rápidamente historias emocionales a partir de mis fotos y hace que cada imagen sea más significativa. Me encanta especialmente su capacidad para expresar emociones y hacer que las fotos cuenten historias más conmovedoras.',
         avatar: ''
       },
       {
-        name: 'Li Hua',
-        title: 'Emprendedor',
-        text: 'Como emprendedor, necesito una herramienta que pueda generar rápidamente tarjetas de presentación profesionales. El generador de tarjetas de presentación con IA no solo tiene un hermoso diseño, sino que también extrae inteligentemente información importante para crear diseños claros de tarjetas. Sus capacidades de diseño con IA hacen que la creación de tarjetas sea simple y eficiente.',
+        name: 'Laura García',
+        title: 'Blogger de Viajes',
+        text: 'Como blogger de viajes, necesito una herramienta que pueda crear rápidamente historias para mis fotos de viaje. PhotoStory AI no solo tiene fuertes capacidades creativas, sino que también entiende inteligentemente el contenido de las fotos para generar historias cautivadoras de viajes. Su creación con IA hace que la documentación de viajes sea más interesante.',
         avatar: ''
       },
       {
-        name: 'Wang Fan',
-        title: 'Diseñador',
-        text: 'Al trabajar con solicitudes de tarjetas de clientes, el diseño de plantillas del generador de tarjetas de presentación con IA es excelente. Comprende precisamente los requisitos de diseño y genera tarjetas tanto profesionales como hermosas. La protección de la privacidad también me da confianza.',
+        name: 'Ana Martínez',
+        title: 'Ama de Casa',
+        text: 'Al trabajar con fotos familiares, la creación de historias de PhotoStory AI es excelente. Comprende precisamente las emociones en las fotos y genera historias familiares conmovedoras. La protección de la privacidad también me da confianza.',
         avatar: ''
       },
       {
-        name: 'Chen Qian',
-        title: 'Gerente de Ventas',
-        text: 'La facilidad de uso del generador de tarjetas de presentación con IA es muy buena. Después de subir la información, la IA genera rápidamente las tarjetas, haciendo todo el proceso fluido y natural. Los efectos de diseño de las tarjetas también son excelentes y hacen que la imagen personal sea más profesional.',
+        name: 'David López',
+        title: 'Gerente de Redes Sociales',
+        text: 'La facilidad de uso de PhotoStory AI es muy buena. Después de subir las fotos, la IA genera rápidamente historias cautivadoras, haciendo todo el proceso fluido y natural. La calidad de las historias también es excelente y hace que el contenido de redes sociales sea más vivo e interesante.',
         avatar: ''
       },
       {
-        name: 'Liu Ting',
+        name: 'Carmen Ruiz',
         title: 'Estudiante',
-        text: 'El generador de tarjetas de presentación con IA fue de gran ayuda al preparar mi currículum para pasantías. Extrae inteligentemente mi información educativa y de habilidades para generar diseños de tarjetas adecuados para un estudiante. La multi-funcionalidad también me permite usar varios estilos de tarjetas para diferentes casos.',
+        text: 'PhotoStory AI fue de gran ayuda al documentar la vida universitaria. Entiende inteligentemente mis fotos del campus y crea historias llenas de energía juvenil. La multi-funcionalidad también me permite crear diferentes estilos de historias para diferentes ocasiones.',
         avatar: ''
       },
       {
-        name: 'Zhao Yang',
+        name: 'José Fernández',
         title: 'CEO',
-        text: 'Las medidas de protección de la privacidad del generador de tarjetas de presentación con IA me dan mucha confianza. Utiliza tecnologías avanzadas de encriptación para garantizar la seguridad de la información. Mientras tanto, sus capacidades de diseño con IA son potentes y generan rápidamente tarjetas de presentación profesionales, ayudándome a construir una mejor marca personal.',
+        text: 'Las medidas de protección de la privacidad de PhotoStory AI me dan mucha confianza. Utiliza tecnologías avanzadas de encriptación para garantizar la seguridad de las fotos. Sus capacidades de creación con IA son potentes y generan rápidamente historias de marca profesionales, ayudando a construir una mejor imagen de marca.',
         avatar: ''
       }
     ]
   },
   faq: {
     title: 'Preguntas Frecuentes',
-    subtitle: 'Preguntas comunes sobre el Generador de Tarjetas de Autopresentación con IA',
+    subtitle: 'Preguntas comunes sobre PhotoStory AI',
     questions: [
       {
         q: '¿Para qué puedo usar esta herramienta?',
-        a: 'Puedes crear tarjetas de autopresentación profesionales para perfiles de redes sociales, solicitudes de empleo, sitios web personales o cualquier otra ocasión donde necesites presentarte.'
+        a: 'Puedes crear historias emocionales e imaginativas para redes sociales, documentación de viajes, recuerdos familiares o cualquier otra ocasión donde desees presentar historias fotográficas.'
       },
       {
         q: '¿Hay algún costo por usar esta herramienta?',
-        a: 'Actualmente, esta herramienta es completamente gratuita. Puedes crear tarjetas de autopresentación sin ninguna restricción.'
+        a: 'Actualmente, esta herramienta es completamente gratuita. Puedes crear historias fotográficas sin ninguna restricción.'
       },
       {
         q: '¿Qué idiomas son compatibles?',
-        a: 'Nuestra IA puede procesar autopresentaciones en múltiples idiomas, incluyendo español, inglés y otros idiomas principales.'
+        a: 'Nuestra IA puede procesar historias en múltiples idiomas, incluyendo español, inglés y otros idiomas principales.'
       },
       {
         q: '¿Están seguros mis datos?',
-        a: 'Valoramos tu privacidad. El contenido de autopresentación que proporcionas solo se utiliza para crear las tarjetas y no se utilizará para ningún otro propósito.'
+        a: 'Valoramos tu privacidad. Las fotos que proporcionas solo se utilizan para crear las historias y no se utilizarán para ningún otro propósito.'
       }
     ]
   },
@@ -141,20 +141,20 @@ export default {
     loading: 'Cargando...'
   },
   workflow: {
-    title: 'Cómo usar el Generador de Tarjetas de Presentación con IA',
-    subtitle: 'Cree hermosas tarjetas de presentación en 3 sencillos pasos',
+    title: 'Cómo usar el Generador de Historias Fotográficas con IA',
+    subtitle: 'Crea hermosas historias fotográficas en 3 sencillos pasos',
     steps: {
       upload: {
-        title: 'Suba su archivo',
-        desc: 'Simplemente suba su archivo con información personal para comenzar'
+        title: 'Sube tu foto',
+        desc: 'Simplemente sube tu foto para comenzar'
       },
       analyze: {
         title: 'Análisis de IA',
-        desc: 'La IA extrae automáticamente la información clave y genera una hermosa tarjeta'
+        desc: 'La IA analiza automáticamente la foto y crea una hermosa historia'
       },
       download: {
         title: 'Descargar y Compartir',
-        desc: 'Descargue su hermosa tarjeta de presentación y compártala donde quiera'
+        desc: 'Descarga tu hermosa historia fotográfica y compártela donde quieras'
       }
     }
   },
