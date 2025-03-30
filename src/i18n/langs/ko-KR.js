@@ -18,8 +18,8 @@ export default {
     }
   },
   upload: {
-    title: '파일을 여기에 드래그하거나 클릭하여 업로드',
-    subtitle: 'PDF, Word, TXT 등 다양한 형식 지원',
+    title: '이미지를 여기에 드래그하거나 클릭하여 업로드',
+    subtitle: 'PNG, JPG 등 이미지 형식 지원',
     button: '파일 선택',
     converting: '분석 중...',
     success: '분석 완료',

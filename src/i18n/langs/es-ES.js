@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'IntroCard AI - Generador de Tarjetas de Autopresentación',
+    home: 'PhotoStory AI - Generador de Tarjetas de Autopresentación',
     features: 'Características',
     faq: 'Preguntas Frecuentes',
     pricing: 'Precios',
@@ -8,7 +8,7 @@ export default {
     points: 'Puntos: {points}'
   },
   hero: {
-    title: 'IntroCard AI - Generador de Tarjetas de Autopresentación',
+    title: 'PhotoStory AI - Generador de Tarjetas de Autopresentación',
     subtitle: 'Transforma tu texto de autopresentación en hermosas tarjetas visuales utilizando tecnología de IA. Simplemente ingresa tu texto y nuestra IA creará automáticamente tarjetas de autopresentación profesionales y visualmente atractivas, perfectas para redes sociales, currículos o perfiles profesionales.',
     tags: {
       free: 'Gratis',
@@ -18,8 +18,8 @@ export default {
     }
   },
   upload: {
-    title: 'Arrastra archivos aquí o haz clic para cargar',
-    subtitle: 'Soporta PDF, Word, TXT y otros formatos',
+    title: 'Arrastra imágenes aquí o haz clic para cargar',
+    subtitle: 'Soporta PNG, JPG y otros formatos de imagen',
     button: 'Seleccionar archivo',
     converting: 'Generando...',
     success: 'Generación completada',
@@ -159,8 +159,8 @@ export default {
     }
   },
   login: {
-    title: 'Iniciar sesión en IntroCard AI',
-    subtitle: 'Experimente las mejores características de IntroCard AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
+    title: 'Iniciar sesión en PhotoStory AI',
+    subtitle: 'Experimente las mejores características de PhotoStory AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
     terms: 'Al iniciar sesión, aceptas nuestros',
     termsLink: 'Términos de servicio y Política de privacidad',
     success: 'Inicio de sesión exitoso',
@@ -183,7 +183,7 @@ export default {
   },
   pricing: {
     title: 'Elija Su Plan',
-    subtitle: 'Experimente las mejores características de IntroCard AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
+    subtitle: 'Experimente las mejores características de PhotoStory AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
     monthly: 'Suscripción mensual',
     yearly: 'Suscripción anual (Ahorre 20%)',
     highTier: {
@@ -275,11 +275,11 @@ export default {
     sections: {
       acceptance: {
         title: 'Aceptación de términos',
-        content: 'Bienvenido a IntroCard AI. Al utilizar nuestro servicio, usted acepta estar sujeto a estos términos. Si no está de acuerdo con alguna parte de estos términos, por favor no utilice nuestro servicio.'
+        content: 'Bienvenido a PhotoStory AI. Al utilizar nuestro servicio, usted acepta estar sujeto a estos términos. Si no está de acuerdo con alguna parte de estos términos, por favor no utilice nuestro servicio.'
       },
       description: {
         title: 'Descripción del servicio',
-        content: 'IntroCard AI proporciona servicios de conversión de documentos basados en IA. Nuestros servicios incluyen:',
+        content: 'PhotoStory AI proporciona servicios de conversión de documentos basados en IA. Nuestros servicios incluyen:',
         items: [
           'Conversión de documentos asistida por IA',
           'Extracción y análisis de texto',

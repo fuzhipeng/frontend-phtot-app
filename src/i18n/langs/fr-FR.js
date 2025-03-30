@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'IntroCard AI - Générateur de Cartes de Présentation',
+    home: 'PhotoStory AI - Générateur de Cartes de Présentation',
     features: 'Fonctionnalités',
     faq: 'FAQ',
     pricing: 'Tarifs',
@@ -8,7 +8,7 @@ export default {
     points: 'Points: {points}'
   },
   hero: {
-    title: 'IntroCard AI - Générateur de Cartes de Présentation',
+    title: 'PhotoStory AI - Générateur de Cartes de Présentation',
     subtitle: 'Transformez votre texte de présentation en magnifiques cartes visuelles grâce à la technologie IA. Saisissez simplement votre texte et notre IA créera automatiquement des cartes de présentation professionnelles et visuellement attrayantes, parfaites pour les réseaux sociaux, les CV ou les profils professionnels.',
     tags: {
       free: 'Gratuit',
@@ -18,8 +18,8 @@ export default {
     }
   },
   upload: {
-    title: 'Glissez les fichiers ici ou cliquez pour télécharger',
-    subtitle: 'Prend en charge PDF, Word, TXT et autres formats',
+    title: 'Glissez les images ici ou cliquez pour télécharger',
+    subtitle: 'Prend en charge les formats PNG, JPG et autres images',
     button: 'Sélectionner un fichier',
     converting: 'Génération...',
     success: 'Génération terminée',

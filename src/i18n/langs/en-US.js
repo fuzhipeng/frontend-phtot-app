@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'IntroCard AI - Smart Self-Introduction Card Generator',
+    home: 'PhotoStory AI - AI Photo Story Generator',
     features: 'Features',
     faq: 'FAQ',
     pricing: 'Pricing',
@@ -30,8 +30,8 @@ export default {
     }
   },
   hero: {
-    title: 'IntroCard AI - Smart Self-Introduction Card Generator',
-    subtitle: 'Transform your self-introduction text into beautiful visual cards using AI technology. Simply input your text, and our AI will automatically create professional, visually appealing self-introduction cards, perfect for social media, resumes, or professional profiles.',
+    title: 'PhotoStory AI - AI Photo Story Generator',
+    subtitle: 'Transform your photos into captivating stories with AI. Simply upload your images, and our AI will automatically create emotional and imaginative stories that bring each photo to life.',
     tags: {
       free: 'Free',
       ai: 'AI Smart Design',
@@ -40,8 +40,8 @@ export default {
     }
   },
   upload: {
-    title: 'Drop files here or click to upload',
-    subtitle: 'Supports PDF, Word, TXT and more',
+    title: 'Drop images here or click to upload',
+    subtitle: 'Supports PNG, JPG and other image formats',
     button: 'Choose File',
     converting: 'Generating...',
     success: 'Generation Complete',
@@ -60,8 +60,8 @@ export default {
     noContent: 'No content available'
   },
   features: {
-    title: 'Main Features of AI Self Introduction Card Generator',
-    subtitle: 'Experience Next-Gen AI Self Introduction Card Generation - Smart Design, Professional Look, Multi-Scene Application',
+    title: 'Key Features of PhotoStory AI',
+    subtitle: 'Experience the next generation of AI story generation - emotional, imaginative, and versatile',
     cards: {
       free: {
         title: 'Free to Use',
@@ -95,8 +95,8 @@ export default {
     }
   },
   testimonials: {
-    title: 'User Reviews of AI Business Card Generator',
-    subtitle: 'See how users from different industries rate our AI business card generation tool',
+    title: 'What Users Say About PhotoStory AI',
+    subtitle: 'Hear from users across different industries about our AI photo story generation tool',
     list: [
       {
         name: 'Zhang Ming',
@@ -138,7 +138,7 @@ export default {
   },
   faq: {
     title: 'Frequently Asked Questions',
-    subtitle: 'Common questions about AI Self Introduction Card Generator',
+    subtitle: 'Common questions about PhotoStory AI',
     questions: [
       {
         q: 'What can I use this tool for?',
@@ -166,8 +166,8 @@ export default {
     details: 'Error Details'
   },
   login: {
-    title: 'Login to IntroCard AI',
-    subtitle: 'Experience the best features of IntroCard AI: faster document processing and advanced format preservation',
+    title: 'Login to PhotoStory AI',
+    subtitle: 'Experience the best features of PhotoStory AI: faster document processing and advanced format preservation',
     terms: 'By signing in, you agree to our',
     termsLink: 'Terms of Service and Privacy Policy',
     success: 'Login Successful',
@@ -183,7 +183,7 @@ export default {
   },
   pricing: {
     title: 'Choose Your Plan',
-    subtitle: 'Experience the best features of IntroCard AI: faster document processing and advanced format preservation',
+    subtitle: 'Experience the best features of PhotoStory AI: faster document processing and advanced format preservation',
     monthly: 'Monthly subscription',
     yearly: 'Annual subscription (Save 20%)',
     highTier: {
@@ -252,15 +252,15 @@ export default {
         },
         {
           question: 'Can I get help with the product?',
-          answer: 'Yes!\nYou can contact us at support@textanalytica.ai for any assistance you need.'
+          answer: 'Yes!\nYou can contact us at support@photostory.ai for any help you need.'
         },
         {
-          question: 'What is the Enterprise tier?',
-          answer: 'If you have unique use cases and want to learn more about pricing, please contact us at sales@textanalytica.ai.'
+          question: 'What is the enterprise level?',
+          answer: 'If you have a unique use case and would like to learn more about pricing, please contact us at sales@photostory.ai.'
         },
         {
-          question: 'Do I have to be a paid user to use converted documents for commercial purposes?',
-          answer: 'No. You are free to use our document conversion features for personal, academic, or commercial purposes as long as you respect the terms of service!\nIf you are a free user, please attribute that the document was converted by textAnalytica AI when using it.'
+          question: 'Do I need to be a paid user to use the converted documents for commercial purposes?',
+          answer: 'No. You are free to use our document conversion features for personal, academic, or commercial purposes as long as you respect the terms of use!\nIf you are a free user, please credit PhotoStory AI when using the converted documents.'
         },
         {
           question: 'Does my subscription include API access?',
@@ -275,7 +275,7 @@ export default {
     sections: {
       intro: {
         title: 'Introduction',
-        content: 'At Raphael, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI image generation service (raphael.app, hereinafter referred to as the "Service").'
+        content: 'At PhotoStory AI, we take your privacy seriously. This privacy policy explains how we collect, use, and protect your information when you use our AI data analysis service (photostory.ai, hereinafter referred to as the "Service").'
       },
       noCollection: {
         title: 'Information We Don\'t Collect',
@@ -334,7 +334,7 @@ export default {
       },
       contact: {
         title: 'Contact Information',
-        content: 'If you have any questions about this Privacy Policy, please contact us at [email protected].'
+        content: 'If you have any questions about this privacy policy, please contact us at support@photostory.ai.'
       },
       legal: {
         title: 'Legal Basis',
@@ -348,11 +348,11 @@ export default {
     sections: {
       acceptance: {
         title: 'Acceptance of Terms',
-        content: 'Welcome to Raphael AI. By accessing or using our service, you agree to be bound by these terms. If you do not agree to any part of these terms, please do not use our service.'
+        content: 'Welcome to PhotoStory AI. By accessing or using our Service, you agree to be bound by these terms. If you disagree with any part of these terms, please do not use our Service.'
       },
       description: {
         title: 'Service Description',
-        content: 'Raphael AI provides AI-powered image generation services. Our services include:',
+        content: 'PhotoStory AI provides AI-powered document extraction and conversion services. Our services include:',
         items: [
           'AI-assisted image generation',
           'Text-to-image conversion',
@@ -420,7 +420,158 @@ export default {
       },
       contact: {
         title: 'Contact Us',
-        content: 'If you have any questions about these Terms of Service, please contact us at [email protected].'
+        content: 'If you have any questions about these terms of service, please contact us at support@photostory.ai.'
+      }
+    }
+  },
+  footer: {
+    legal: {
+      privacy: {
+        intro: {
+          title: 'Introduction',
+          content: 'At PhotoStory AI, we take your privacy seriously. This privacy policy explains how we collect, use, and protect your information when you use our AI data analysis service (photostory.ai, hereinafter referred to as the "Service").'
+        },
+        noCollection: {
+          title: 'Information We Don\'t Collect',
+          content: 'We are committed to minimizing data collection. We do not:',
+          items: [
+            'Require users to register or create accounts',
+            'Store your prompts or generated images',
+            'Collect personal information',
+            'Use cookies for tracking',
+            'Share any data with third parties'
+          ]
+        },
+        processedInfo: {
+          title: 'Information We Process',
+          content: 'We only process the following information:',
+          items: [
+            'Temporary text prompts during image generation',
+            'Generated images during creation',
+            'Basic usage analytics (non-personally identifiable information)'
+          ]
+        },
+        usage: {
+          title: 'How We Use Information',
+          content: 'All processed information is used only for:',
+          items: [
+            'Generating images based on your prompts',
+            'Improving service performance and quality',
+            'Maintaining service security and preventing abuse'
+          ]
+        },
+        retention: {
+          title: 'Data Retention',
+          content: 'We follow a strict no-storage policy. All prompts and generated images are processed in real-time and deleted immediately after generation. We do not maintain any user content database.'
+        },
+        security: {
+          title: 'Security Measures',
+          content: 'We implement appropriate technical measures to prevent unauthorized access, alteration, or destruction of the limited data we process. Our service operates on secure, encrypted connections.'
+        },
+        children: {
+          title: 'Children\'s Privacy',
+          content: 'Our service is not directed at children under 13. We do not knowingly collect or process information from children under 13.'
+        },
+        changes: {
+          title: 'Changes to Privacy Policy',
+          content: 'We may update this Privacy Policy from time to time. We will notify users of any significant changes by posting the new Privacy Policy on this page.'
+        },
+        rights: {
+          title: 'Your Rights',
+          content: 'Since we don\'t collect personal data, there is typically no user data to:',
+          items: [
+            'Access',
+            'Correct',
+            'Delete',
+            'Export'
+          ]
+        },
+        contact: {
+          title: 'Contact Information',
+          content: 'If you have any questions about this privacy policy, please contact us at support@photostory.ai.'
+        },
+        legal: {
+          title: 'Legal Basis',
+          content: 'We process the minimum required information based on legitimate interests in providing and improving our service while maintaining user privacy and security.'
+        }
+      },
+      terms: {
+        acceptance: {
+          title: 'Acceptance of Terms',
+          content: 'Welcome to PhotoStory AI. By accessing or using our Service, you agree to be bound by these terms. If you disagree with any part of these terms, please do not use our Service.'
+        },
+        description: {
+          title: 'Service Description',
+          content: 'PhotoStory AI provides AI-powered document extraction and conversion services. Our services include:',
+          items: [
+            'AI-assisted image generation',
+            'Text-to-image conversion',
+            'Image editing and optimization',
+            'Other related features'
+          ]
+        },
+        conditions: {
+          title: 'Usage Conditions',
+          content: 'When using our service, you agree to:',
+          items: [
+            'Not generate or upload any illegal, harmful, or rights-infringing content',
+            'Not abuse or attempt to disrupt our service',
+            'Not use automated tools or scripts for bulk access',
+            'Comply with all applicable laws and regulations'
+          ]
+        },
+        intellectual: {
+          title: 'Intellectual Property',
+          content: 'Regarding intellectual property, please note:',
+          items: [
+            'Our service and technology are protected by intellectual property laws',
+            'You own the usage rights to images you generate through our service',
+            'You may not copy or distribute our service itself',
+            'You should respect others\' intellectual property rights'
+          ]
+        },
+        changes: {
+          title: 'Service Changes',
+          content: 'We reserve the right to:',
+          items: [
+            'Modify or terminate any part of the service at any time',
+            'Update service features and content',
+            'Adjust usage limitations',
+            'Change technical requirements'
+          ]
+        },
+        disclaimer: {
+          title: 'Disclaimer',
+          content: 'Our service is provided "as is" without any express or implied warranties. We are not responsible for:',
+          items: [
+            'Service interruptions or unavailability',
+            'Accuracy or suitability of generated content',
+            'Data loss or damage',
+            'Any losses resulting from using our service'
+          ]
+        },
+        liability: {
+          title: 'Limitation of Liability',
+          content: 'To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, punitive, or consequential damages.'
+        },
+        termsChanges: {
+          title: 'Changes to Terms',
+          content: 'We may update these Terms of Service from time to time. Updated terms will be posted on the website, and continued use of our service indicates your acceptance of the new terms.'
+        },
+        termination: {
+          title: 'Termination',
+          content: 'We reserve the right to:',
+          items: [
+            'Terminate your service access for any reason',
+            'Remove violating content',
+            'Block suspicious usage',
+            'Take necessary measures to protect the service and users'
+          ]
+        },
+        contact: {
+          title: 'Contact Us',
+          content: 'If you have any questions about these terms of service, please contact us at support@photostory.ai.'
+        }
       }
     }
   }

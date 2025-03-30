@@ -39,8 +39,8 @@ export default {
     }
   },
   upload: {
-    title: 'ファイルをここにドロップするか、クリックしてアップロード',
-    subtitle: 'PDF、Word、TXTなどの形式をサポート',
+    title: '画像をここにドロップするか、クリックしてアップロード',
+    subtitle: 'PNG、JPGなどの画像形式をサポート',
     button: 'ファイルを選択',
     converting: '分析中...',
     success: '分析完了',
