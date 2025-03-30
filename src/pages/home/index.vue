@@ -192,6 +192,16 @@ const { t, locale } = useI18n()
 // 支持的语言
 const supportedLanguages = SUPPORT_LANGUAGES
 
+// 从localStorage读取保存的语言设置,如果没有则默认使用英语
+const savedLanguage = localStorage.getItem('lang')
+if (savedLanguage) {
+  locale.value = savedLanguage
+} else {
+  // 设置默认语言为英语
+  locale.value = 'en-US'
+  localStorage.setItem('lang', 'en-US')
+}
+
 // 当前语言标签
 const currentLanguageLabel = computed(() => {
   const currentLang = supportedLanguages.find(lang => lang.value === locale.value)
@@ -201,7 +211,7 @@ const currentLanguageLabel = computed(() => {
 // 处理语言切换
 const handleLanguageChange = (langValue) => {
   locale.value = langValue
-  localStorage.setItem('language', langValue)
+  localStorage.setItem('lang', langValue)
   ElMessage.success(t('system.languageChanged', { lang: currentLanguageLabel.value }))
 }
 
